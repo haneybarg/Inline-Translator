@@ -67,8 +67,8 @@ translate('I spea Dutch!', {from: 'en', to: 'nl'}).then(res => {
 });
 ```
 To use the bot:
->/start
->type anything
->it is translated to english.
+:/start
+:ype anything
+:it is translated to english.
 #
 
