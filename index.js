@@ -171,7 +171,7 @@ telegram.on("text", (message) => {
                   {
                       type: "article",
                       id: "testarticle",
-                      title: "Hello world",
+                      title: res.text,
                       input_message_content: {
                           message_text: res.text
                      }
