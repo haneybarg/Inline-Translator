@@ -140,7 +140,7 @@ telegram.on("text", (message) => {
          if (message !== null) {
               telegram.on("text", (messagem) => {
                   count = 1;
-                  cont = 2;
+                  
                   translate(messagem.text, {to: 'en'}).then(res => {
                       // telegram.sendMessage(message.chat.id, res.text);
                      if(count == 1){
