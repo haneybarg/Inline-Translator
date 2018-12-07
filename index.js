@@ -1,7 +1,7 @@
 var querystring = require('querystring');
 
 var TelegramBot = require('node-telegram-bot-api'),
-    telegram = new TelegramBot("548678871:AAE-BCSOW7z4c38ps8MpttJDhhKsGskZSDA", { polling: true });
+    telegram = new TelegramBot("insert token here", { polling: true });
 
 var got = require('got');
 var safeEval = require('safe-eval');
